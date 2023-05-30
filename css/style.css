@@ -1,3 +1,185 @@
+#services-section {
+  margin-top: -50px;
+}
+#services-heading {
+  margin-top: 230px;
+}
+#services {
+  height: 60vh;
+}
+/* line 1, ../../Arafath/CL/December/233. Startup/HTML/scss/_footer.scss */
+.footer {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 100px;
+}
+
+/* line 6, ../../Arafath/CL/December/233. Startup/HTML/scss/_footer.scss */
+.footer .footer_top {
+  padding-top: 100px;
+  padding-bottom: 160px;
+  background: #1f1f1f;
+}
+
+@media (max-width: 767px) {
+  /* line 6, ../../Arafath/CL/December/233. Startup/HTML/scss/_footer.scss */
+  .footer .footer_top {
+    padding-top: 50px;
+    padding-bottom: 30px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 6, ../../Arafath/CL/December/233. Startup/HTML/scss/_footer.scss */
+  .footer .footer_top {
+    padding-top: 50px;
+    padding-bottom: 60px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  /* line 6, ../../Arafath/CL/December/233. Startup/HTML/scss/_footer.scss */
+  .footer .footer_top {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 22, ../../Arafath/CL/December/233. Startup/HTML/scss/_footer.scss */
+  .footer .footer_top .menu_links {
+    margin-top: 15px;
+  }
+}
+
+/* line 27, ../../Arafath/CL/December/233. Startup/HTML/scss/_footer.scss */
+.footer .footer_top .menu_links ul li {
+  display: inline-block;
+  margin-right: 46px;
+}
+
+@media (max-width: 767px) {
+  /* line 27, ../../Arafath/CL/December/233. Startup/HTML/scss/_footer.scss */
+  .footer .footer_top .menu_links ul li {
+    margin-right: 10px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  /* line 27, ../../Arafath/CL/December/233. Startup/HTML/scss/_footer.scss */
+  .footer .footer_top .menu_links ul li {
+    margin-right: 30px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 27, ../../Arafath/CL/December/233. Startup/HTML/scss/_footer.scss */
+  .footer .footer_top .menu_links ul li {
+    margin-right: 30px;
+  }
+}
+
+/* line 39, ../../Arafath/CL/December/233. Startup/HTML/scss/_footer.scss */
+.footer .footer_top .menu_links ul li a {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+/* line 43, ../../Arafath/CL/December/233. Startup/HTML/scss/_footer.scss */
+.footer .footer_top .menu_links ul li a:hover {
+  color: #615cfd;
+}
+
+/* line 51, ../../Arafath/CL/December/233. Startup/HTML/scss/_footer.scss */
+.footer .copy-right_text {
+  padding-bottom: 25px;
+  background: #1f1f1f;
+}
+
+/* line 54, ../../Arafath/CL/December/233. Startup/HTML/scss/_footer.scss */
+.footer .copy-right_text .footer_border {
+  padding-bottom: 25px;
+  border-top: 1px solid #363636;
+}
+
+/* line 58, ../../Arafath/CL/December/233. Startup/HTML/scss/_footer.scss */
+.footer .copy-right_text .copy_right {
+  font-size: 15px;
+  color: #c9c9c9;
+  margin-bottom: 0;
+  font-weight: 400;
+}
+
+@media (max-width: 767px) {
+  /* line 58, ../../Arafath/CL/December/233. Startup/HTML/scss/_footer.scss */
+  .footer .copy-right_text .copy_right {
+    font-size: 13px;
+  }
+}
+
+/* line 66, ../../Arafath/CL/December/233. Startup/HTML/scss/_footer.scss */
+.footer .copy-right_text .copy_right a {
+  color: #615cfd;
+}
+
+/* line 71, ../../Arafath/CL/December/233. Startup/HTML/scss/_footer.scss */
+.footer .socail_links {
+  text-align: right;
+  width: 100%;
+  height: auto;
+  /* border: 1px solid yellow; */
+}
+
+@media (max-width: 767px) {
+  /* line 71, ../../Arafath/CL/December/233. Startup/HTML/scss/_footer.scss */
+  .footer .socail_links {
+    text-align: left;
+    margin-top: 30px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 71, ../../Arafath/CL/December/233. Startup/HTML/scss/_footer.scss */
+  .footer .socail_links {
+    text-align: center;
+    margin-top: 30px;
+  }
+}
+
+/* line 85, ../../Arafath/CL/December/233. Startup/HTML/scss/_footer.scss */
+.footer .socail_links ul li {
+  display: inline-block;
+}
+
+/* line 88, ../../Arafath/CL/December/233. Startup/HTML/scss/_footer.scss */
+.footer .socail_links ul li a {
+  color: #fff;
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  text-align: center;
+  background: transparent;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  line-height: 40px !important;
+  margin-right: 7px;
+  color: #e7f9f9;
+  line-height: 40px !important;
+  border: 1px solid #e7f9f9;
+  font-size: 14px;
+}
+
+/* line 102, ../../Arafath/CL/December/233. Startup/HTML/scss/_footer.scss */
+.footer .socail_links ul li a:hover {
+  color: #fff !important;
+  background: #615cfd;
+  border: 1px solid #615cfd;
+}
+
 @media (min-width: 320px) and (max-width: 991px) {
   /* line 51, ../../Arafath/CL/December/233. Startup/HTML/scss/_video.scss */
 }
@@ -227,7 +409,31 @@
   display: inline-block;
   width: auto;
 }
+.form-submit {
+  width: 100%;
+  height: 45px;
+  border-radius: 30px;
+  background-color: blueviolet;
+  color: white;
+  border: none;
+  font-weight: 500;
+}
+.form-submit:hover {
+  border: 1px solid blueviolet;
+  background: none;
+  color: blueviolet;
+  transition-duration: 0.5s;
+}
 
+.touch-content {
+  color: black;
+}
+.col-sm-12 {
+  margin-left: 400px;
+}
+.form-control {
+  border-radius: 30px;
+}
 /* line 65, ../../Arafath/CL/December/233. Startup/HTML/scss/_tesmonial.scss */
 .testimonial_area .owl-carousel .owl-nav div.owl-next {
   left: auto;
@@ -299,8 +505,7 @@
   /* border: 1px solid black; */
 }
 .card:hover {
-  border: 1px solid blueviolet;
-  transition-duration: 0.4s;
+  border: 2px solid blueviolet;
 }
 .about-heading {
   color: white;
@@ -798,19 +1003,20 @@ a:hover {
   color: #fff !important;
 }
 .sticky-wrapper.is-sticky .site-navbar {
-  background: #fff;
+  background: #1f1f1f;
   border-bottom: 1px solid transparent;
   -webkit-box-shadow: 4px 0 20px -5px rgba(0, 0, 0, 0.1);
   box-shadow: 4px 0 20px -5px rgba(0, 0, 0, 0.1);
 }
+
 .sticky-wrapper.is-sticky .site-navbar .site-menu-toggle {
   color: #000;
 }
 .sticky-wrapper.is-sticky .site-navbar .site-logo a {
-  color: #007bff;
+  color: white;
 }
 .sticky-wrapper.is-sticky .site-navbar .site-menu > li > a {
-  color: #000 !important;
+  color: #fff !important;
 }
 .sticky-wrapper.is-sticky .site-navbar .site-menu > li > a:hover,
 .sticky-wrapper.is-sticky .site-navbar .site-menu > li > a.active {
@@ -856,12 +1062,227 @@ a:hover {
   color: black;
   font-size: 18px;
 }
+.boxed-btn3 {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#0181f5+0,5db2ff+100 */
+  background: #615cfd;
+  color: #fff;
+  display: inline-block;
+  padding: 12px 33px;
+  font-family: "Muli", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  border: 0;
+  border: 1px solid transparent;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+  text-align: center;
+  color: #fff !important;
+  text-transform: capitalize;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+/* line 45, ../../Arafath/CL/December/233. Startup/HTML/scss/_btn.scss */
+.boxed-btn3:hover {
+  border: 1px solid #615cfd;
+  color: #615cfd !important;
+  background: transparent;
+}
+
+/* line 50, ../../Arafath/CL/December/233. Startup/HTML/scss/_btn.scss */
+.boxed-btn3:focus {
+  outline: none;
+}
+
+body .testimonial {
+  padding: 100px 0;
+}
+body .testimonial .row .tabs {
+  all: unset;
+  margin-right: 50px;
+  display: flex;
+  flex-direction: column;
+}
+body .testimonial .row .tabs li {
+  all: unset;
+  display: block;
+  position: relative;
+}
+body .testimonial .row .tabs li.active::before {
+  position: absolute;
+  content: "";
+  width: 50px;
+  height: 50px;
+  background-color: #71b85f;
+  border-radius: 50%;
+}
+body .testimonial .row .tabs li.active::after {
+  position: absolute;
+  content: "";
+  width: 30px;
+  height: 30px;
+  background-color: #71b85f;
+  border-radius: 50%;
+}
+body .testimonial .row .tabs li:nth-child(1) {
+  align-self: flex-end;
+}
+body .testimonial .row .tabs li:nth-child(1)::before {
+  left: 64%;
+  bottom: -50px;
+}
+body .testimonial .row .tabs li:nth-child(1)::after {
+  left: 97%;
+  bottom: -81px;
+}
+body .testimonial .row .tabs li:nth-child(1) figure img {
+  margin-left: auto;
+}
+body .testimonial .row .tabs li:nth-child(2) {
+  align-self: flex-start;
+}
+body .testimonial .row .tabs li:nth-child(2)::before {
+  right: -65px;
+  top: 50%;
+}
+body .testimonial .row .tabs li:nth-child(2)::after {
+  bottom: 101px;
+  border-radius: 50%;
+  right: -120px;
+}
+body .testimonial .row .tabs li:nth-child(2) figure img {
+  margin-right: auto;
+  max-width: 300px;
+  width: 100%;
+  margin-top: -50px;
+}
+body .testimonial .row .tabs li:nth-child(3) {
+  align-self: flex-end;
+}
+body .testimonial .row .tabs li:nth-child(3)::before {
+  right: -10px;
+  top: -66%;
+}
+body .testimonial .row .tabs li:nth-child(3)::after {
+  top: -130px;
+  border-radius: 50%;
+  right: -46px;
+}
+body .testimonial .row .tabs li:nth-child(3) figure img {
+  margin-left: auto;
+  margin-top: -50px;
+}
+body .testimonial .row .tabs li:nth-child(3):focus {
+  border: 10px solid red;
+}
+body .testimonial .row .tabs li figure {
+  position: relative;
+}
+body .testimonial .row .tabs li figure img {
+  display: block;
+}
+body .testimonial .row .tabs li figure::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  border: 4px solid #dff9d9;
+  border-radius: 50%;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+body .testimonial .row .tabs li figure:hover::after {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+body .testimonial .row .tabs.carousel-indicators li.active figure::after {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+body .testimonial .row .carousel > h3 {
+  font-size: 20px;
+  line-height: 1.45;
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: 600;
+  margin-bottom: 0;
+}
+body .testimonial .row .carousel h1 {
+  font-size: 40px;
+  line-height: 1.225;
+  margin-top: 23px;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+body .testimonial .row .carousel .carousel-indicators {
+  all: unset;
+  padding-top: 43px;
+  display: flex;
+  list-style: none;
+}
+body .testimonial .row .carousel .carousel-indicators li {
+  background: #000;
+  background-clip: padding-box;
+  height: 2px;
+}
+body .testimonial .row .carousel .carousel-inner .carousel-item .quote-wrapper {
+  margin-top: 42px;
+}
+body
+  .testimonial
+  .row
+  .carousel
+  .carousel-inner
+  .carousel-item
+  .quote-wrapper
+  p {
+  font-size: 18px;
+  line-height: 1.72222;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.7);
+}
+body
+  .testimonial
+  .row
+  .carousel
+  .carousel-inner
+  .carousel-item
+  .quote-wrapper
+  h3 {
+  color: #000;
+  font-weight: 700;
+  margin-top: 37px;
+  font-size: 20px;
+  line-height: 1.45;
+  text-transform: uppercase;
+}
+
+@media only screen and (max-width: 1200px) {
+  body .testimonial .row .tabs {
+    margin-right: 25px;
+  }
+}
 @media screen and (max-width: 700px) {
   .heading {
     font-size: 40px;
     text-align: center;
     margin-left: 0;
   }
+  .col-sm-12 {
+    margin-left: 0;
+  }
+
   .block {
     height: auto;
   }
@@ -939,6 +1360,12 @@ a:hover {
   }
   .card {
     margin-top: 30px;
+  }
+  .portfolio_image_area h1 {
+    margin-top: 100px;
+  }
+  .footer .footer_top .menu_links ul li a {
+    font-size: 11px;
   }
 }
 
